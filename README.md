@@ -19,9 +19,6 @@ You can use ```#percent_of``` by invoking:
   24.44.percent_of 123.45 # => "19.80%"
 ```
 
-## Authors
-[Catalin Ilinca](https://github.com/ducknorris)
-
 ## Contributing
 
 Thanks to our [contributors](https://github.com/ducknorris/percent_of/graphs/contributors).
