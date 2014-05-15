@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name             = "percent_of"
-  spec.version          = "0.0.2"
+  spec.version          = "0.0.3"
   spec.authors          = ["Catalin Ilinca"]
   spec.email            = ["c@talin.ro"]
   spec.description      = %q{It returns the percent of a number from another number.}
