@@ -1,6 +1,6 @@
 # PercentOf
 
-[![Build Status](https://travis-ci.org/ducknorris/percent_of.svg?branch=master)](https://travis-ci.org/ducknorris/percent_of)
+[![Gem Version](https://badge.fury.io/rb/percent_of.svg)](http://badge.fury.io/rb/percent_of) [![Build Status](https://travis-ci.org/ducknorris/percent_of.svg?branch=master)](https://travis-ci.org/ducknorris/percent_of)
 
 Module that implements ```percent_of``` for Fixnum and Float classes in Ruby.
 
