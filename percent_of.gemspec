@@ -3,11 +3,11 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name             = "percent_of"
-  spec.version          = "0.0.1"
+  spec.version          = "0.0.2"
   spec.authors          = ["Catalin Ilinca"]
   spec.email            = ["c@talin.ro"]
-  spec.description      = %q{Output the percent of a number from another number.}
-  spec.summary          = %q{Output the percent of a number from another number.}
+  spec.description      = %q{It returns the percent of a number from another number.}
+  spec.summary          = %q{#percent_of for Fixnum and Float.}
   spec.homepage         = "https://github.com/ducknorris/percent_of"
   spec.license          = "MIT"
   spec.extra_rdoc_files = [

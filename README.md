@@ -4,6 +4,8 @@
 
 Module that implements ```percent_of``` for Fixnum and Float classes in Ruby.
 
+It returns the percent of a number from another number.
+
 ## How to use
 
 Add it to your ```Gemfile```.
