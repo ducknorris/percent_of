@@ -24,7 +24,7 @@ You can use ```#percent_of``` by invoking:
 
 ## Contributing
 
-Thanks to our [contributors](https://github.com/2Parale/active-record-forcible-index/graphs/contributors).
+Thanks to our [contributors](https://github.com/ducknorris/percent_of/graphs/contributors).
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
