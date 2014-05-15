@@ -1,6 +1,6 @@
-# ActiveRecord::ForcibleIndex [![Gem Version](https://badge.fury.io/rb/active-record-forcible-index.svg)](http://badge.fury.io/rb/active-record-forcible-index) [![Build Status](https://travis-ci.org/ducknorris/active-record-forcible-index.svg?branch=master)](https://travis-ci.org/ducknorris/active-record-forcible-index)
+# PercentOf
 
-ActiveRecord extension that implements USE INDEX and FORCE INDEX.
+Module that implements ```percent_of``` for Fixnum and Float classes in Ruby.
 
 ## How to use
 
@@ -8,30 +8,19 @@ Add it to your ```Gemfile```.
 
 ```
   # ...
-  gem 'active-record-forcible-index'
+  gem 'percent_of'
   # ...
 ```
 
-Having the model bellow:
+You can use ```#percent_of``` by invoking:
 
 ```
-  class DummyModel < ActiveRecord::Base
-    require 'active_record_forcible_index'
-  end
+  20.percent_of 100 # => "20.00%"
+  24.44.percent_of 123.45 # => "19.80%"
 ```
-
-You can use ```#use_index``` or ```#force_index``` by invoking:
-
-```
-  # code here
-  DummyModel.all.use_index('dummy_index')
-  # code here
-```
-
-Note: Get *dummy_index* value from your SQL database.
 
 ## Authors
-[Catalin Ilinca](https://github.com/ducknorris) and [Alexandru Emil Lupu](https://github.com/alecslupu)
+[Catalin Ilinca](https://github.com/ducknorris)
 
 ## Contributing
 
